@@ -1,0 +1,22 @@
+<script>
+
+function getName(getone)
+{
+let icecream="abc";
+	if(icecream === getone)
+		{
+ 		alert("Wrong");
+		}
+	else
+		{
+		alert("ture");
+		}
+
+
+}
+
+
+
+</script>
+
+<button onclick="getName('abc')">try it</button>
