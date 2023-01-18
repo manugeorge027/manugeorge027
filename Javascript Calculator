@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+<script>
+
+function division()
+{
+let val1=document.getElementById("first").value;
+let val2=document.getElementById("second").value;
+let result=val1/val2;
+document.getElementById("field").value=result;
+}
+
+
+function addition()
+{
+let val1=document.getElementById("first").value;
+let val2=document.getElementById("second").value;
+let result=parseInt(val1) + parseInt(val2);
+document.getElementById("field").value=result;
+}
+
+function substraction()
+{
+let val1=document.getElementById("first").value;
+let val2=document.getElementById("second").value;
+let result=val1-val2;
+document.getElementById("field").value=result;
+}
+
+
+function multiply()
+{
+let val1=document.getElementById("first").value;
+let val2=document.getElementById("second").value;
+let result=val1*val2;
+document.getElementById("field").value = result;
+}
+
+   </script>
+
+<body>
+<label> First Value</label>
+<input type="text" id="first"/>
+<br>
+<label> Second Value</label>
+<input type="text" id="second"/>
+<br>
+<button onclick="division()"> Division</button>
+<button onclick="addition()"> Addition</button>
+<button onclick="substraction()">Substraction</button>
+<button onclick="multiply()"> Multiplication</button>
+<br><label> Result</label>
+<input type="text" id="field"/>
+</body>
+
+
+
+</html
